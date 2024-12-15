@@ -21,8 +21,8 @@ export const Header = () => {
       description: "",
     },
     {
-      title: "Product",
-      description: "Managing a small business today is already tough.",
+      title: "About",
+      description: "Let's evolve with the evolving landscape.",
       items: [
         {
           title: "Reports",
@@ -73,9 +73,9 @@ export const Header = () => {
                                 {item.description}
                               </p>
                             </div>
-                            <Button size="sm" className="mt-10">
-                              Book a call today
-                            </Button>
+                            {/* <Button size="sm" className="mt-10">
+                            Get in touch
+                            </Button> */}
                           </div>
                           <div className="flex flex-col text-sm h-full justify-end">
                             {item.items?.map((subItem) => (
@@ -99,12 +99,12 @@ export const Header = () => {
           </NavigationMenu>
         </div>
         <div className="flex justify-end w-full gap-4">
-          <Button variant="ghost" className="hidden md:inline">
+          {/* <Button variant="ghost" className="hidden md:inline">
             Book a demo
-          </Button>
+          </Button> */}
           <div className="border-r hidden md:inline"></div>
-          <Button variant="outline">Sign in</Button>
-          <Button>Get started</Button>
+          {/* <Button variant="outline">Sign in</Button> */}
+          <Button>Get in touch</Button>
         </div>
         <div className="flex w-12 shrink lg:hidden items-end justify-end">
           <Button variant="ghost" onClick={() => setOpen(!isOpen)}>
