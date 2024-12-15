@@ -8,46 +8,24 @@ export const Footer = () => {
       description: "",
     },
     {
-      title: "Product",
-      description: "Managing a small business today is already tough.",
+      title: "About",
+      description: "Let's evolve with the evolving landscape.",
       items: [
         {
-          title: "Reports",
-          href: "/reports",
+          title: "Resume",
+          href: "/resume",
         },
         {
-          title: "Statistics",
-          href: "/statistics",
-        },
-        {
-          title: "Dashboards",
-          href: "/dashboards",
-        },
-        {
-          title: "Recordings",
-          href: "/recordings",
-        },
-      ],
-    },
-    {
-      title: "Company",
-      description: "Managing a small business today is already tough.",
-      items: [
-        {
-          title: "About us",
-          href: "/about",
-        },
-        {
-          title: "Fundraising",
-          href: "/fundraising",
-        },
-        {
-          title: "Investors",
-          href: "/investors",
-        },
-        {
-          title: "Contact us",
+          title: "Contact",
           href: "/contact",
+        },
+        {
+          title: "Links",
+          href: "/links",
+        },
+        {
+          title: "Projects",
+          href: "/recordings",
         },
       ],
     },
@@ -60,17 +38,16 @@ export const Footer = () => {
           <div className="flex gap-8 flex-col items-start">
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-                TWBlocks™
+                A beautiful journey
               </h2>
               <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                Managing a small business today is already tough.
+                Designing Seamless and Creative Solutions.
               </p>
             </div>
             <div className="flex gap-20 flex-row">
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                <p>1 Tailwind Way</p>
-                <p>Menlo Park</p>
-                <p>CA 94025</p>
+                <p>London</p>
+                <p>United Kingdom</p>
               </div>
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <Link href="/">Terms of service</Link>
