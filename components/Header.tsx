@@ -25,19 +25,19 @@ export const Header = () => {
       description: "Let's evolve with the evolving landscape.",
       items: [
         {
-          title: "Reports",
-          href: "/reports",
+          title: "Resume",
+          href: "/resume",
         },
         {
-          title: "Statistics",
-          href: "/statistics",
+          title: "Contact",
+          href: "/contact",
         },
         {
-          title: "Dashboards",
-          href: "/dashboards",
+          title: "Links",
+          href: "/links",
         },
         {
-          title: "Recordings",
+          title: "Projects",
           href: "/recordings",
         },
       ],
